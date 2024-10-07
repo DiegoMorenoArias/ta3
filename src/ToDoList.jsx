@@ -13,8 +13,8 @@ function ToDoList() {
 
   // Función para eliminar una tarea por su índice
   const removeTask = (index) => {
-    setTasks(tasks.filter((_, i) => i !== index)); // Uso el _ porque es el elemento actual del array. En otras palabras,
-    // voy a agarrar todas las tareas menos la que tiene el índice "index".
+    setTasks(tasks.filter((_, i) => i !== index)); // Uso el _ porque es el elemento actual del array.
+    // En otras palabras, voy a agarrar todas las tareas menos la que tiene el índice "index".
   };
 
   return (
